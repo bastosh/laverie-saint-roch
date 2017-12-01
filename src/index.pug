@@ -2,6 +2,15 @@
 extends pug/base
 
 block content
+    include pug/views/header.pug
     main
-      include pug/views/test.pug
+      include pug/views/main/presentation.pug
+      include pug/views/main/engagements.pug
+      include pug/views/main/tarifs.pug
+      include pug/views/main/blanchisserie.pug
+      include pug/views/main/services.pug
+      include pug/views/main/infos.pug
+      include pug/views/main/gallerie.pug
+      include pug/views/main/contact.pug
+    include pug/views/footer.pug
         

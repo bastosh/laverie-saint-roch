@@ -24,7 +24,6 @@ module.exports = {
   ],
 
   DIST_FILES: [
-    'src/img',
     'src/favicon.ico',
     'src/icon.png',
     'src/tile.png',
@@ -33,6 +32,10 @@ module.exports = {
     'src/browserconfig.xml',
     'src/humans.txt',
     'src/robots.txt',
+  ],
+
+  IMG: [
+    'src/img/*.*',
   ],
 
 };
